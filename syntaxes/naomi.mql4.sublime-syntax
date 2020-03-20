@@ -13,7 +13,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-name: MQL 4 (Naomi)
+name: MQL 4 (naomi-syntax)
 scope: source.mql
 
 file_extensions:
@@ -27,4 +27,4 @@ contexts:
       push: statement-and-expression
 
   statement-and-expression:
-    - include: Packages/Naomi/syntaxes/mql4/statement-and-expression.sublime-syntax
+    - include: Packages/naomi-syntax/syntaxes/mql4/statement-and-expression.sublime-syntax

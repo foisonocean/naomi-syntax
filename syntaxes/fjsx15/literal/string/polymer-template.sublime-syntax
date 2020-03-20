@@ -40,7 +40,7 @@ contexts:
   content:
     - clear_scopes: true
     - meta_scope: text.html
-    - include: Packages/Naomi/syntaxes/html5/element.sublime-syntax
+    - include: Packages/naomi-syntax/syntaxes/html5/element.sublime-syntax
 
   close:
     - match: \`

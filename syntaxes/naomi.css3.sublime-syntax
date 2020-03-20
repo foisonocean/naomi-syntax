@@ -13,7 +13,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-name: CSS (Naomi)
+name: CSS (naomi-syntax)
 scope: source.css
 
 file_extensions:
@@ -26,14 +26,14 @@ contexts:
       push: [ entry ]
 
   entry:
-    - include: Packages/Naomi/syntaxes/css3/comment.sublime-syntax
-    - include: Packages/Naomi/syntaxes/css3/statement.sublime-syntax
+    - include: Packages/naomi-syntax/syntaxes/css3/comment.sublime-syntax
+    - include: Packages/naomi-syntax/syntaxes/css3/statement.sublime-syntax
     - match: (?=\S)
       push:
-        - include: Packages/Naomi/syntaxes/css3/ruleset.sublime-syntax
+        - include: Packages/naomi-syntax/syntaxes/css3/ruleset.sublime-syntax
 
   # Used by the core syntax to highlight inline CSS.
   rule-list-body:
     - match: ""
       push:
-        - include: Packages/Naomi/syntaxes/css3/ruleset/block.sublime-syntax#delimiter
+        - include: Packages/naomi-syntax/syntaxes/css3/ruleset/block.sublime-syntax#delimiter

@@ -61,6 +61,6 @@ contexts:
           push:
             - match: (?=^\s*```)
               pop: true
-            - include: Packages/Naomi/syntaxes/naomi.fjsx15.sublime-syntax
+            - include: Packages/naomi-syntax/syntaxes/naomi-syntax.fjsx15.sublime-syntax
             - match: ""
               pop: true

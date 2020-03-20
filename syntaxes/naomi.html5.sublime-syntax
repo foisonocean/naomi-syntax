@@ -13,7 +13,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-name: HTML 5 (Naomi)
+name: HTML 5 (naomi-syntax)
 scope: text.html
 
 file_extensions:
@@ -40,7 +40,7 @@ contexts:
       push: [ entry ]
 
   entry:
-    # - include: Packages/Naomi/syntaxes/html5/php.sublime-syntax
-    - include: Packages/Naomi/syntaxes/html5/element.sublime-syntax
+    # - include: Packages/naomi-syntax/syntaxes/html5/php.sublime-syntax
+    - include: Packages/naomi-syntax/syntaxes/html5/element.sublime-syntax
     - match: ""
       pop: true

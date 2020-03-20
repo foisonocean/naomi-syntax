@@ -22,4 +22,4 @@ contexts:
       push: php
 
   php:
-    - include: Packages/Naomi/syntaxes/naomi.php7.sublime-syntax
+    - include: Packages/naomi-syntax/syntaxes/naomi-syntax.php7.sublime-syntax

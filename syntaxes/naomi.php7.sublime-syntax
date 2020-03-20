@@ -13,7 +13,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-name: PHP (Naomi)
+name: PHP (naomi-syntax)
 scope: text.html
 
 file_extensions:
@@ -55,4 +55,4 @@ contexts:
         - match: (?=\s*\?>)
           pop: true
       push:
-        - include: Packages/Naomi/syntaxes/php7/statement-and-expression.sublime-syntax
+        - include: Packages/naomi-syntax/syntaxes/php7/statement-and-expression.sublime-syntax

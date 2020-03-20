@@ -13,12 +13,12 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-name: JSX (Naomi)
+name: JSX (naomi-syntax)
 hidden: true
 scope: source.jsx
 
 contexts:
   main:
-    - include: Packages/Naomi/syntaxes/jsx1/fragment.sublime-syntax
-    - include: Packages/Naomi/syntaxes/jsx1/component.sublime-syntax
-    - include: Packages/Naomi/syntaxes/jsx1/element.sublime-syntax
+    - include: Packages/naomi-syntax/syntaxes/jsx1/fragment.sublime-syntax
+    - include: Packages/naomi-syntax/syntaxes/jsx1/component.sublime-syntax
+    - include: Packages/naomi-syntax/syntaxes/jsx1/element.sublime-syntax

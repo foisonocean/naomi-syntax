@@ -13,7 +13,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 
-name: JavaScript (Naomi)
+name: JavaScript (naomi-syntax)
 scope: source.js
 
 file_extensions:
@@ -27,6 +27,6 @@ contexts:
       push: [ entry ]
 
   entry:
-    - include: Packages/Naomi/syntaxes/fjsx15/comment.sublime-syntax
-    - include: Packages/Naomi/syntaxes/fjsx15/statement.sublime-syntax
-    - include: Packages/Naomi/syntaxes/fjsx15/expression.sublime-syntax
+    - include: Packages/naomi-syntax/syntaxes/fjsx15/comment.sublime-syntax
+    - include: Packages/naomi-syntax/syntaxes/fjsx15/statement.sublime-syntax
+    - include: Packages/naomi-syntax/syntaxes/fjsx15/expression.sublime-syntax

@@ -35,4 +35,4 @@ contexts:
       pop: true
 
   regex-content:
-    - include: Packages/Naomi/syntaxes/fjsx15/literal/string/regex.sublime-syntax#regex-content
+    - include: Packages/naomi-syntax/syntaxes/fjsx15/literal/string/regex.sublime-syntax#regex-content

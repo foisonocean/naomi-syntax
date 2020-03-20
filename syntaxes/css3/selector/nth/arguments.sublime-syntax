@@ -31,4 +31,4 @@ contexts:
       push: expression
 
   expression:
-    - include: Packages/Naomi/syntaxes/css3/selector/nth/expression.sublime-syntax
+    - include: Packages/naomi-syntax/syntaxes/css3/selector/nth/expression.sublime-syntax

@@ -26,4 +26,4 @@ contexts:
           )
         )
       push:
-        - include: Packages/Naomi/syntaxes/mql4/comment.sublime-syntax
+        - include: Packages/naomi-syntax/syntaxes/mql4/comment.sublime-syntax

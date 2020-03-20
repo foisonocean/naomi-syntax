@@ -42,7 +42,7 @@ contexts:
     - include: other-tags
 
   variable:
-    - include: Packages/Naomi/syntaxes/php7/variable.sublime-syntax
+    - include: Packages/naomi-syntax/syntaxes/php7/variable.sublime-syntax
 
   types:
     # $this.
@@ -63,7 +63,7 @@ contexts:
       ]
 
   type:
-    - include: Packages/Naomi/syntaxes/php7/type.sublime-syntax
+    - include: Packages/naomi-syntax/syntaxes/php7/type.sublime-syntax
 
   type-definition:
     - match: |

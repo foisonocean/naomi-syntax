@@ -55,5 +55,5 @@ contexts:
       pop: true
 
   type:
-    - include: Packages/Naomi/syntaxes/mql4/type.sublime-syntax
+    - include: Packages/naomi-syntax/syntaxes/mql4/type.sublime-syntax
 
